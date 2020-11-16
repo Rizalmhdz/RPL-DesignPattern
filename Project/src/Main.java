@@ -1,5 +1,5 @@
-
 import FacadePattern.*;
+import TemplateMethod.*;
 import java.util.*;
 /**
  *
@@ -27,6 +27,9 @@ public class Main {
 
                 switch (pilih) {
                     case 1: {          
+                        System.out.println("Masukkan panjang dan Lebar Bangun Segi Empat: ");
+                        Pola1 pola1 = new Pola1();
+                        pola1.segiempat();
                         break;
                     }
                     case 2: {                     
