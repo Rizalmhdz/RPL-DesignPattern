@@ -5,6 +5,7 @@
  */
 package project;
 import FacadePattern.*;
+import java.util.*;
 /**
  *
  * @author Rizal
@@ -16,7 +17,44 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+        String ulang = "y";
+            System.out.println("==== Implementasi Design Pattern Di Ruang Bangun Persegi Panjang ====");
+            System.out.println("======================================================================");
+            while (ulang.equals("y")) {
+                System.out.println("==== Pilihan :" +
+                        "\n 1. Template Method(Visualisasi Persegi Panjang)" +
+                        "\n 2. Strategy Pattern(Menghitung Nilai Luas, Keliling, dan Diagonal Persegi Panjang)" +
+                        "\n 3. Facade Pattern (Detail Rumus)" +
+                        "\n 4. Keluar ");
+                System.out.print("Masukkan Pilihan = ");
+                Scanner sc = new Scanner(System.in);
+                int pilih = sc.nextInt();
+
+                switch (pilih) {
+                    case 1: {          
+                        break;
+                    }
+                    case 2: {                     
+                        break;
+                    }
+                    case 3: {
+                        Detail();
+                        break;
+                    }
+
+                    case 4: {        
+                        System.out.println("Terimakasih Atas Perhatiannya :)"); 
+                        System.exit(0);
+                    }
+
+                }
+                System.out.println("======================================================================");
+                System.out.println("Apakah mau lagi (y/t)?");
+                ulang = sc.next();
+            }
+            System.out.println("======================================================================");
+            System.out.println("Terimakasih Atas Perhatiannya :)");
+            System.out.println("======================================================================");
         
     }  
     

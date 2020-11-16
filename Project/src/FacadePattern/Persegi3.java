@@ -1,3 +1,4 @@
+
 package FacadePattern;
 
 public class Persegi3 {
