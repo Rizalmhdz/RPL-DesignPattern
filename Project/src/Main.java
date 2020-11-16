@@ -34,7 +34,21 @@ public class Main {
                         break;
                     }
                     case 2: {
+                        System.out.println("===Perhitungan Luas Dan Keliling Persegi Panjang===");
+                        System.out.print("Masukkan Panjang :");
+                        int a = sc.nextInt();
+                        System.out.print("Masukkan Lebar :");
+                        int b = sc.nextInt();
 
+                        PersegiPanjang pj = new PersegiPanjang(a,b);
+                        pj.setRumus( new Luas());
+                        pj.action();
+
+                        pj.setRumus( new Keliling());
+                        pj.action();
+
+                        pj.setRumus( new Diagonal());
+                        pj.action();
                         break;
                     }
                     case 3: {
