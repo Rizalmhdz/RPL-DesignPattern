@@ -1,5 +1,6 @@
 import FacadePattern.*;
 import TemplateMethod.*;
+import StrategyPattern.*;
 import java.util.*;
 /**
  *
@@ -32,7 +33,8 @@ public class Main {
                         pola1.segiempat();
                         break;
                     }
-                    case 2: {                     
+                    case 2: {
+
                         break;
                     }
                     case 3: {
